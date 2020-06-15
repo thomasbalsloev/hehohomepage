@@ -1,0 +1,12 @@
+.expanel{
+    width:750px;
+    background: #f1f1f1;
+    margin-top: 100px;
+}
+.paneldiv{
+    text-align:center;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
