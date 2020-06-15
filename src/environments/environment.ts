@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  indhold1 : "Intro til Visual Studio"
+  indhold1: {
+    paneltitel: "Intro to visual studio", panelUgeNr: "24", panelEmner: "Brush up", panelMaterialer: "Noter side 111-112", panelExercise: "O2Brushup, O3Speak, O4: OOP2.7",
+  }
 };
 
 /*

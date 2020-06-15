@@ -6,8 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./expanpanel.component.css']
 })
 export class ExpanpanelComponent implements OnInit {
-  @Input("UgeNr") UgeNr : string;
-  @Input("UgeIndhold") UgeIndhold : string;
+  @Input("PanelUgeNr") PanelUgeNr : string;
+  @Input("PanelTitel") PanelTitel : string;
+  @Input("PanelEmne") PanelEmne : string;
+  @Input("PanelMaterialer") PanelMaterialer: string;
+  @Input("PanelExercise") PanelExercises: string;
   constructor() { }
 
   ngOnInit(): void {
