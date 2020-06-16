@@ -1,0 +1,27 @@
+.expanel{
+    width:750px;
+    background: #f1f1f1;
+    margin-top: 25px; 
+    
+}
+.paneldiv{
+    text-align:center;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+.expanel h3{
+    font-size:14px;
+    font-family:"montserrat";
+    font-weight:1000;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.paneldescription{
+    display:flex;
+    margin-left:60px;
+ 
+}

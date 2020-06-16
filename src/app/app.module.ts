@@ -8,12 +8,14 @@ import { ExpanpanelComponent } from './expanpanel/expanpanel.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { environment} from './../environments/environment';
+import { ExpansionpanelComponent } from './expansionpanel/expansionpanel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationsbarComponent,
-    ExpanpanelComponent
+    ExpanpanelComponent,
+    ExpansionpanelComponent
   ],
   imports: [
     BrowserModule,
